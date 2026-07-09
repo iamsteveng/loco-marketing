@@ -106,7 +106,7 @@ section{padding:72px 0}
 .sec-head p{margin-top:8px;opacity:.85;max-width:38em}
 
 /* ---- tickets ---- */
-.tickets{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.tickets{display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px}
 .ticket{
   position:relative;border-radius:16px;color:#fff;
   display:grid;grid-template-columns:1fr 140px;overflow:hidden;
@@ -114,14 +114,22 @@ section{padding:72px 0}
 }
 .ticket.t-orange{background:var(--orange)}
 .ticket.t-blue{background:var(--ink)}
+.ticket.t-sky{background:var(--sky);color:var(--ink)}
 .ticket .main{padding:30px 28px}
 .ticket .main h3{font-size:1.25rem;font-weight:900;margin-bottom:6px}
 .ticket .main p{font-size:.92rem;opacity:.92}
+.ticket .code{
+  display:inline-block;margin-top:10px;padding:4px 10px;border-radius:6px;
+  font-family:'Anton',sans-serif;font-size:.85rem;letter-spacing:.05em;
+  background:rgba(255,255,255,.25)
+}
+.ticket.t-sky .code{background:rgba(18,48,63,.12)}
 .ticket .stub{
   border-left:2px dashed rgba(255,255,255,.6);
   display:flex;flex-direction:column;align-items:center;justify-content:center;
   padding:16px 10px;text-align:center;
 }
+.ticket.t-sky .stub{border-left:2px dashed rgba(18,48,63,.35)}
 .ticket .stub .val{font-family:'Anton',sans-serif;font-size:2.4rem;line-height:1}
 .ticket .stub .lab{font-size:.78rem;font-weight:700;margin-top:6px;letter-spacing:.08em}
 .ticket::before,.ticket::after{
@@ -268,6 +276,14 @@ footer p{margin-top:10px;font-size:.88rem;opacity:.75}
         </div>
         <div class="stub"><span class="val">8折</span><span class="lab">PRE-ORDER</span></div>
       </div>
+      <div class="ticket t-sky">
+        <div class="main">
+          <h3>新客一次買 5 張門票 半價</h3>
+          <p>新客戶專屬優惠，一次購買 5 張門票即享半價，輸入優惠碼即可享用。</p>
+          <span class="code">NEWLOCO</span>
+        </div>
+        <div class="stub"><span class="val">50%</span><span class="lab">NEW CUSTOMER</span></div>
+      </div>
     </div>
     <p class="ticket-note">* 優惠只限香港運動消閑博覽會場內訂購，詳情以現場公佈為準。</p>
   </div>
@@ -291,6 +307,7 @@ footer p{margin-top:10px;font-size:.88rem;opacity:.75}
             <span class="now"><sup>$</sup>799</span>
             <span class="badge">會場優惠價</span>
           </div>
+          <a class="buy" href="https://mart.loco.hk/product/LocoBike-ST-01?language=zh-hk" target="_blank" rel="noopener">立即購買 →</a>
         </div>
       </div>
       <div class="bike">
