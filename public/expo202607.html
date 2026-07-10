@@ -133,7 +133,12 @@ section{padding:72px 0}
   transition:transform .15s ease;white-space:nowrap;
 }
 .copybtn:hover{transform:translateY(-2px)}
-.copybtn.copied{background:#2E9E5B;color:#fff}
+.copybtn.copied{
+  background:#2E9E5B;color:#fff;
+  box-shadow:0 0 0 5px rgba(46,158,91,.3);
+  animation:copied-pop .4s ease;
+}
+@keyframes copied-pop{0%{transform:scale(1)}45%{transform:scale(1.12)}100%{transform:scale(1)}}
 .ticket::before,.ticket::after{
   content:"";position:absolute;width:22px;height:22px;border-radius:50%;
   background:var(--paper);left:-11px;
@@ -530,7 +535,7 @@ function copyCode(id, btn){
     var t = btn.textContent;
     btn.textContent = '已複製 ✓';
     btn.classList.add('copied');
-    setTimeout(function(){ btn.textContent = t; btn.classList.remove('copied'); }, 1800);
+    setTimeout(function(){ btn.textContent = t; btn.classList.remove('copied'); }, 2200);
   }
   if (navigator.clipboard && navigator.clipboard.writeText){
     navigator.clipboard.writeText(code).then(done);
