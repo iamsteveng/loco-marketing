@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocoBike Student Benefit Program · Eligible Schools</title>
+<meta name="description" content="Eligible schools and email domains for the LocoBike Student Benefit Program.">
+<link rel="alternate" hreflang="zh-Hant" href="/student/zh">
+<link rel="stylesheet" href="/student/student.css">
+</head>
+<body>
+
+<header class="top-banner">
+  <img src="/student/logo.svg" alt="LocoBike">
+  <nav class="lang-switch" aria-label="Language">
+    <a id="langLink" href="/student/zh" lang="zh-Hant">中文</a><span>EN</span>
+  </nav>
+</header>
+
+<main>
+<section class="section-wrap">
+  <h1>Student Benefit Program · Eligible Schools</h1>
+  <p class="lead">Students of the schools below can verify their student status with their school email address and enjoy LocoBike student benefits.</p>
+  <p class="note">Your email address must end with a listed domain exactly. For example, if @connect.hku.hk is listed, use xxx@connect.hku.hk.</p>
+  <p class="jump"><a href="#apply">Can't find your school? Contact us to apply ↓</a></p>
+
+  <div class="search">
+    <input id="search" type="search" placeholder="Search school name or email domain" aria-label="Search school name or email domain" autocomplete="off">
+    <div class="result-count" id="resultCount" aria-live="polite"></div>
+  </div>
+  <ul class="school-list" id="schoolList"></ul>
+  <p class="empty" id="empty" hidden>No matching school. Contact our customer service to apply.</p>
+</section>
+
+<section class="section-wrap" id="apply">
+  <h2>Can't find your school?</h2>
+  <p class="lead">Contact our customer service to apply for your school to join the Student Benefit Program, and we'll guide you through the next step.</p>
+  <div class="contact-buttons">
+    <a class="btn" href="tel:+85252121706">📞 Hotline 5212-1706 (10:00–18:00)</a>
+    <a class="btn btn-secondary" href="https://www.facebook.com/locobikehk" target="_blank" rel="noopener">Facebook message</a>
+    <a class="btn btn-secondary" href="https://www.instagram.com/loco.bike" target="_blank" rel="noopener">Instagram message</a>
+  </div>
+  <div class="template">
+    <p id="template">I'd like to apply for my school to join the LocoBike Student Benefit Program. School name: ___; School email domain: @___</p>
+    <button class="copybtn" type="button" onclick="copyTemplate(this)">Copy</button>
+  </div>
+</section>
+</main>
+
+<footer>LocoBike　·　www.loco.hk</footer>
+
+<script>
+window.STUDENT_PAGE = {
+  lang: "en",
+  otherLangPath: "/student/zh",
+  countAll: function (n) { return n + " eligible schools"; },
+  countFound: function (n) { return n === 1 ? "1 school found" : n + " schools found"; },
+  copied: "Copied ✓"
+};
+</script>
+<script src="/student/schools.js"></script>
+<script src="/student/student.js"></script>
+</body>
+</html>
