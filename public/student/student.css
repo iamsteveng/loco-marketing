@@ -10,6 +10,7 @@
   --bg-page: #FAF9FD;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 body {
   font-family: "PingFang HK", "Microsoft JhengHei", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   background: var(--bg-page);
@@ -87,6 +88,17 @@ body {
   margin: 8px auto 0;
   text-align: center;
 }
+.section-wrap .jump {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.section-wrap .jump a {
+  color: var(--coral);
+  font-weight: 700;
+  text-decoration: none;
+}
+.section-wrap .jump a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .section-wrap { margin: 20px 12px 0; padding: 28px 16px; }
 }
