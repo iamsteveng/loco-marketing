@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocoBike 學生優惠計劃 · 合資格學校一覽</title>
+<meta name="description" content="LocoBike 學生優惠計劃合資格學校及電郵域名一覽。">
+<link rel="alternate" hreflang="en" href="/student/en">
+<link rel="stylesheet" href="/student/student.css">
+</head>
+<body>
+
+<header class="top-banner">
+  <img src="/student/logo.svg" alt="LocoBike">
+  <nav class="lang-switch" aria-label="語言">
+    <span>中文</span><a id="langLink" href="/student/en" lang="en">EN</a>
+  </nav>
+</header>
+
+<main>
+<section class="section-wrap">
+  <h1>學生優惠計劃 · 合資格學校</h1>
+  <p class="lead">以下學校的學生可使用學校電郵地址完成學生身份驗證，享用 LocoBike 學生優惠。</p>
+  <p class="note">電郵地址須以列出的域名結尾，並須完全相符。例如列出 @connect.hku.hk，則須使用 xxx@connect.hku.hk。</p>
+
+  <div class="search">
+    <input id="search" type="search" placeholder="搜尋學校名稱或電郵域名" aria-label="搜尋學校名稱或電郵域名" autocomplete="off">
+    <div class="result-count" id="resultCount" aria-live="polite"></div>
+  </div>
+  <ul class="school-list" id="schoolList"></ul>
+  <p class="empty" id="empty" hidden>找不到相關學校，歡迎聯絡客服申請加入。</p>
+</section>
+
+<section class="section-wrap" id="apply">
+  <h2>找不到你的學校？</h2>
+  <p class="lead">歡迎聯絡客服申請將你的學校加入學生優惠計劃，我們會跟進下一步。</p>
+  <div class="contact-buttons">
+    <a class="btn" href="tel:+85252121706">📞 客服熱線 5212-1706（10:00–18:00）</a>
+    <a class="btn btn-secondary" href="https://m.me/locobikehk" target="_blank" rel="noopener">Facebook 私訊</a>
+    <a class="btn btn-secondary" href="https://ig.me/m/loco.bike" target="_blank" rel="noopener">Instagram 私訊</a>
+  </div>
+  <div class="template">
+    <p id="template">我想申請將學校加入 LocoBike 學生優惠計劃。學校名稱：＿＿＿；學校電郵域名：@＿＿＿</p>
+    <button class="copybtn" type="button" onclick="copyTemplate(this)">複製</button>
+  </div>
+</section>
+</main>
+
+<footer>LocoBike 樂區單車　·　www.loco.hk</footer>
+
+<script>
+window.STUDENT_PAGE = {
+  lang: "zh",
+  otherLangPath: "/student/en",
+  countAll: function (n) { return "共 " + n + " 間合資格學校"; },
+  countFound: function (n) { return "找到 " + n + " 間學校"; },
+  copied: "已複製 ✓"
+};
+</script>
+<script src="/student/schools.js"></script>
+<script src="/student/student.js"></script>
+</body>
+</html>
