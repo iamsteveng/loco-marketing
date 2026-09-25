@@ -55,3 +55,5 @@ Tell the user:
 - Every name you filled in, and where it came from, so they can check it.
 - Domains skipped as already listed.
 - Domains held back, with the reason and the question for the user.
+
+Put every question for the user in one numbered list, one question per item, so they can reply with just numbers, like "1 yes, 2 no".
