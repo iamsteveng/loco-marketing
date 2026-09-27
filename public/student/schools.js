@@ -404,7 +404,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Tak Oi Secondary School","zh":"德愛中學","domains":["takoi.edu.hk"]},
 {"en":"Tak Sun Secondary School","zh":"德信中學","domains":["tsss.edu.hk"]},
 {"en":"Tang King Po School","zh":"鄧鏡波學校","domains":["tangkingpo.edu.hk"]},
-{"en":"Technological and Higher Education Institute of Hong Kong (Chai Wan Campus)","zh":"香港高等教育科技學院 (柴灣校園)","domains":["thei.edu.hk"]},
+{"en":"Technological and Higher Education Institute of Hong Kong (Chai Wan Campus)","zh":"香港高等教育科技學院 (柴灣校園)","domains":["stu.thei.edu.hk"]},
 {"en":"The Chinese Foundation Secondary School","zh":"中華基金中學","domains":["cfss.edu.hk"]},
 {"en":"The Chinese University of Hong Kong","zh":"香港中文大學","domains":["link.cuhk.edu.hk"]},
 {"en":"The Education University of Hong Kong","zh":"香港教育大學","domains":["s.eduhk.hk"]},
