@@ -13,7 +13,7 @@ Proving student status by receiving a code at an email address whose domain is a
 _Avoid_: Student check, school verification
 
 **Eligible School** (合資格學校):
-A secondary school (中學) or post-secondary institution (專上學院) whose students can pass Student Verification. Post-secondary means offering higher diplomas, associate degrees, or degrees. Primary schools and schools offering only continuing / further education are never Eligible Schools. HKU SPACE counts, because it offers post-secondary programmes. The Vocational Training Council (職業訓練局) is not an Eligible School; of its member institutions, only THEi is.
+A secondary school (中學) or post-secondary institution (專上學院) whose students can pass Student Verification. Post-secondary means offering higher diplomas, associate degrees, or degrees. Primary schools and schools offering only continuing / further education are never Eligible Schools. HKU SPACE, CUHK SCS and PolyU CPCE count, because they offer post-secondary programmes. The Vocational Training Council (職業訓練局) counts as one Eligible School, because IVE and HKDI offer higher diplomas and all its students share one email domain; this knowingly admits its non-post-secondary students too. THEi, a VTC member with its own student domain, is a separate Eligible School.
 _Avoid_: Participating school, partner school, included school
 
 **Eligible Email Domain** (合資格電郵域名):

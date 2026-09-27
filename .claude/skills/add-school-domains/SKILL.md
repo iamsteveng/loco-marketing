@@ -13,7 +13,7 @@ Follow every step for every batch.
 
 Check each domain against the glossary rules in `CONTEXT.md`:
 
-- The school is secondary or higher. Primary schools and continuing / further education schools are never Eligible Schools.
+- The school fits the Eligible School definition in `CONTEXT.md`, including its named exceptions (for example HKU SPACE, VTC). Primary schools are never eligible.
 - The domain is issued to students, not staff. For example, `my.cityu.edu.hk` is the student domain and `cityu.edu.hk` is the staff one.
 - The domain identifies exactly one school and nothing broader.
 - Domains match exactly. A parent domain does not cover its subdomains, and vice versa.
@@ -49,11 +49,22 @@ Never push to `main`; it deploys to production. Create a new branch from an up-t
 
 ## 6. Report back
 
-Tell the user:
+Report in two stages.
+
+**While anything is unresolved**, tell the user:
 
 - The PR link.
 - Every name you filled in, and where it came from, so they can check it.
-- Domains skipped as already listed.
-- Domains held back, with the reason and the question for the user.
+- Domains skipped as already listed, and domains rejected under the rules, with reasons.
+- Domains held back, with the reason.
 
-Put every question for the user in one numbered list, one question per item, so they can reply with just numbers, like "1 yes, 2 no".
+Put every question for the user in one numbered list, one question per item, so they can reply with just numbers, like "1 yes, 2 no". Apply their answers to the same PR, then ask any follow-up questions the same way. Do not give the summary below yet.
+
+**Once every question is settled**, give the summary: one line per line of the user's original input, in the same order, tab-separated, inside a fenced code block so they can paste it into their Excel file. Columns:
+
+1. School name, exactly as the user gave it.
+2. Email domain, exactly as the user gave it, including any `@` or full address.
+3. Comment: blank if accepted. If rejected, the reason in Traditional Chinese, for example `小學不屬合資格學校` or `非學生電郵域名`. A domain already on the list counts as rejected, with `此域名已在合資格名單內，毋須新增`.
+4. Updated website: the date the change goes live, as `YYYY-MM-DD`, if accepted. `N/A` if rejected.
+
+The site updates only when the user merges the PR. Use today's date and say it assumes they merge today.
