@@ -458,6 +458,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"United Christian College (East Kowloon)","zh":"滙基書院 (東九龍)","domains":["uccke.edu.hk"]},
 {"en":"Valtorta College","zh":"恩主教書院","domains":["valtorta.edu.hk"]},
 {"en":"Victoria Shanghai Academy","zh":"滬江維多利亞學校","domains":["vsa.edu.hk"]},
+{"en":"Vocational Training Council (including IVE and HKDI)","zh":"職業訓練局（包括香港專業教育學院及香港知專設計學院）","domains":["stu.vtc.edu.hk"]},
 {"en":"Wa Ying College","zh":"華英中學","domains":["waying.edu.hk"]},
 {"en":"Wah Yan College Hong Kong","zh":"香港華仁書院","domains":["wahyan.edu.hk"]},
 {"en":"Wah Yan College, Kowloon","zh":"華仁書院（九龍）","domains":["wyk.edu.hk","cloud.wyk.edu.hk"]},
