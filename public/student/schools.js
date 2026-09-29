@@ -264,6 +264,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Mu Kuang English School","zh":"慕光英文書院","domains":["mukuang.edu.hk"]},
 {"en":"Munsang College","zh":"民生書院","domains":["munsang.edu.hk"]},
 {"en":"Munsang College (Hong Kong Island)","zh":"港島民生書院","domains":["imsc.edu.hk","g.imsc.edu.hk"]},
+{"en":"N.T. Heung Yee Kuk Yuen Long District Secondary School","zh":"新界鄉議局元朗區中學","domains":["nthykyldss.edu.hk"]},
 {"en":"Nam Wah Catholic Secondary School","zh":"天主教南華中學","domains":["nwcss.edu.hk"]},
 {"en":"New Asia Middle School","zh":"新亞中學","domains":["nams.edu.hk"]},
 {"en":"Newman Catholic College","zh":"天主教新民書院","domains":["newman.edu.hk"]},
