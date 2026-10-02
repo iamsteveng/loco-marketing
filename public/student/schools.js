@@ -104,7 +104,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Cumberland Presbyterian Church Yao Dao Secondary School","zh":"金巴崙長老會耀道中學","domains":["cpcydss.edu.hk"]},
 {"en":"Daughters of Mary Help of Christians Siu Ming Catholic Secondary School","zh":"天主教母佑會蕭明中學","domains":["dmhcsm.edu.hk"]},
 {"en":"De La Salle Secondary School NT","zh":"新界喇沙中學","domains":["delasalle.edu.hk"]},
-{"en":"Delia Memorial School (Glee Path)","zh":"地利亞修女紀念學校 (吉利徑)","domains":["deliagroup.edu.hk"]},
+{"en":"Delia Memorial School (Glee Path)","zh":"地利亞修女紀念學校 (吉利徑)","domains":["deliagroup.edu.hk","dmsgp.edu.hk"]},
 {"en":"Diocesan Boys' School","zh":"拔萃男書院","domains":["dbs.edu.hk","g.dbs.edu.hk"]},
 {"en":"Diocesan Girls' School","zh":"拔萃女書院","domains":["dgs.edu.hk"]},
 {"en":"Discovery Bay International School","zh":"愉景灣國際學校","domains":["dbis.edu.hk"]},
