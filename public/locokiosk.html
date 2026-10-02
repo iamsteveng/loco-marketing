@@ -377,10 +377,10 @@
 
   .hours-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
-    gap: 6px;
-    margin-top: 10px;
-    font-size: 11.5px;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 6px 24px;
+    margin: 0 0 16px;
+    font-size: 13px;
     color: var(--mid-grey);
   }
   .hours-grid div { display: flex; justify-content: space-between; padding: 3px 0; border-bottom: 1px dashed #ddd6ee; }
@@ -407,7 +407,7 @@
   <div class="about-features">
     <div class="about-feature">
       <div class="icon">📍</div>
-      <div class="label">八個服務地點<br>遍佈港九新界</div>
+      <div class="label">九個服務地點<br>遍佈港九新界</div>
       <a class="about-cta" href="#location-section">📍 立即搵最近你單車亭</a>
     </div>
     <div class="about-feature">
@@ -565,6 +565,17 @@ const stations = [
     weekday_hours: [],
     phone: "",
     mapsUrl: "https://maps.app.goo.gl/zg81WqBerq3SCe366"
+  },
+  {
+    name: "九龍城",
+    fullName: "樂區單車亭 by locobike（九龍城）",
+    address: "九龍九龍城賈炳達道賈炳達道公園單車亭",
+    lat: 22.3316067,
+    lng: 114.1886791,
+    hours: "10:00 – 20:00（假日 9:00 起）",
+    weekday_hours: ["星期一至五: 10:00 – 20:00", "星期六、日及公眾假期: 9:00 – 20:00"],
+    phone: "",
+    mapsUrl: "https://maps.app.goo.gl/jS2R1CSJqXwMvAjLA"
   }
 ];
 
