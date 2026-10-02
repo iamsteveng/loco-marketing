@@ -572,7 +572,7 @@ const stations = [
     address: "九龍九龍城賈炳達道賈炳達道公園單車亭",
     lat: 22.3316067,
     lng: 114.1886791,
-    hours: "10:00 – 20:00（假日 9:00 起）",
+    hours: "平日 10:00 – 20:00<br>假日 9:00 – 20:00",
     weekday_hours: ["星期一至五: 10:00 – 20:00", "星期六、日及公眾假期: 9:00 – 20:00"],
     phone: "",
     mapsUrl: "https://maps.app.goo.gl/jS2R1CSJqXwMvAjLA"
@@ -591,7 +591,7 @@ function renderList() {
       </div>
       <div class="address">${s.address}</div>
       <div class="meta">
-        <span>⏰ ${s.hours}</span>
+        <span>⏰ <span>${s.hours}</span></span>
       </div>
     </div>
   `).join('');
