@@ -397,7 +397,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"St. Stephen's Girls' College","zh":"聖士提反女子中學","domains":["ssgc.edu.hk"]},
 {"en":"St. Teresa Secondary School","zh":"德蘭中學","domains":["stteresa.edu.hk"]},
 {"en":"Stewards MKMCF Ma Ko Pan Memorial College","zh":"馬錦明慈善基金馬可賓紀念中學","domains":["makopan.edu.hk"]},
-{"en":"Stewards Pooi Kei College","zh":"香港神託會培基書院","domains":["spkc.edu.hk"]},
+{"en":"Stewards Pooi Kei College","zh":"香港神託會培基書院","domains":["spkc.edu.hk","doc.spkc.edu.hk"]},
 {"en":"Stewards Pooi Tun Secondary School","zh":"香港神託會培敦中學","domains":["pooitun.edu.hk"]},
 {"en":"STFA Seaward Woo College","zh":"順德聯誼總會胡兆熾中學","domains":["stfaswc.edu.hk"]},
 {"en":"Tack Ching Girls' Secondary School","zh":"德貞女子中學","domains":["tackching.edu.hk"]},
