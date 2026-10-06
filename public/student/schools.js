@@ -310,7 +310,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Pope Paul VI College","zh":"保祿六世書院","domains":["ppaulvi.edu.hk"]},
 {"en":"Precious Blood Secondary School","zh":"寶血女子中學","domains":["pbss.edu.hk"]},
 {"en":"Pui Ching Middle School","zh":"香港培正中學","domains":["puiching.edu.hk"]},
-{"en":"Pui Kiu College","zh":"培僑書院","domains":["puikiu.edu.hk"]},
+{"en":"Pui Kiu College","zh":"培僑書院","domains":["puikiu.edu.hk","stu.pkc.edu.hk"]},
 {"en":"Pui Kiu Middle School","zh":"培僑中學","domains":["pkms.edu.hk"]},
 {"en":"Pui Shing Catholic Secondary School","zh":"天主教培聖中學","domains":["puishing.edu.hk"]},
 {"en":"Pui Tak Canossian College","zh":"嘉諾撒培德書院","domains":["ptcc.edu.hk"]},
