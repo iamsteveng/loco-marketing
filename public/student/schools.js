@@ -402,6 +402,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Stewards Pooi Tun Secondary School","zh":"香港神託會培敦中學","domains":["pooitun.edu.hk"]},
 {"en":"STFA Seaward Woo College","zh":"順德聯誼總會胡兆熾中學","domains":["stfaswc.edu.hk"]},
 {"en":"Tack Ching Girls' Secondary School","zh":"德貞女子中學","domains":["tackching.edu.hk"]},
+{"en":"Tai Kwong Hilary College","zh":"大光德萃書院","domains":["tkhc.edu.hk"]},
 {"en":"Tai Po Sam Yuk Secondary School","zh":"大埔三育中學","domains":["tpsy.edu.hk"]},
 {"en":"Tak Nga Secondary School","zh":"德雅中學","domains":["taknga.edu.hk"]},
 {"en":"Tak Oi Secondary School","zh":"德愛中學","domains":["takoi.edu.hk"]},
