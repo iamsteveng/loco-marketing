@@ -211,7 +211,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Kiangsu-Chekiang College","zh":"蘇浙公學","domains":["m.kcc.edu.hk"]},
 {"en":"Kiangsu-Chekiang College (Shatin)","zh":"沙田蘇浙公學","domains":["kccshatin.edu.hk"]},
 {"en":"Kiangsu-Chekiang College and Primary School (Braemar Hill Road Campus)","zh":"蘇浙小學校及蘇浙公學 (寶馬山道校舍)","domains":["kccis.hk"]},
-{"en":"King George V School (ESF)","zh":"(英基學校) 英皇佐治五世學校","domains":["kgv.edu.hk"]},
+{"en":"King George V School (ESF)","zh":"(英基學校) 英皇佐治五世學校","domains":["kgv.edu.hk","kgv.hk"]},
 {"en":"King Ling College","zh":"景嶺書院","domains":["kingling.edu.hk"]},
 {"en":"King's College","zh":"英皇書院","domains":["kings.edu.hk"]},
 {"en":"Kingston International School","zh":"京斯敦國際學校","domains":["kingston.edu.hk"]},
