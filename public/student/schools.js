@@ -130,6 +130,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"G.T. (Ellen Yeung) College","zh":"優才(楊殷有娣)書院","domains":["gtcollege.edu.hk"]},
 {"en":"GCC&ITKD Lau Pak Lok Secondary School","zh":"東莞工商總會劉百樂中學","domains":["lplss.edu.hk"]},
 {"en":"German Swiss International School (English Stream) (Peak Campus)","zh":"德瑞國際學校 (英文部) (山頂校舍)","domains":["gsis.edu.hk"]},
+{"en":"German Swiss International School (German International Stream)","zh":"德瑞國際學校 (德語部)","domains":["learning.gsis.edu.hk"]},
 {"en":"Gertrude Simon Lutheran College","zh":"路德會西門英才中學","domains":["mail.gslc.edu.hk"]},
 {"en":"Good Hope School","zh":"德望學校","domains":["ghs.edu.hk"]},
 {"en":"Gratia Christian College","zh":"宏恩基督教學院","domains":["gratia.edu.hk"]},
