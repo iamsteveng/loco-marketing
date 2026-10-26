@@ -115,7 +115,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"ECF Saint Too Canaan College","zh":"基督教中國佈道會聖道迦南書院","domains":["stcc.edu.hk"]},
 {"en":"ELCHK Lutheran Academy","zh":"基督教香港信義會宏信書院","domains":["luac.edu.hk"]},
 {"en":"ELCHK Lutheran Secondary School","zh":"基督教香港信義會信義中學","domains":["lss.edu.hk"]},
-{"en":"Elegantia College","zh":"風采中學","domains":["elegantia.edu.hk"]},
+{"en":"Elegantia College","zh":"風采中學","domains":["elegantia.edu.hk","stu.elegantia.edu.hk"]},
 {"en":"Evangel College","zh":"播道書院","domains":["evangel.edu.hk","s.evangel.edu.hk"]},
 {"en":"Fanling Kau Yan College","zh":"粉嶺救恩書院","domains":["fkyc.edu.hk"]},
 {"en":"Fanling Lutheran Secondary School","zh":"基督教香港信義會心誠中學","domains":["flss.edu.hk"]},
