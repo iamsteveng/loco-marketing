@@ -178,7 +178,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"Hong Kong Art School","zh":"香港藝術學院","domains":["hkac.org.hk"]},
 {"en":"Hong Kong Baptist University","zh":"香港浸會大學","domains":["life.hkbu.edu.hk"]},
 {"en":"Hong Kong Chinese Women's Club College","zh":"香港中國婦女會中學","domains":["hkcwcc.edu.hk"]},
-{"en":"Hong Kong Chu Hai College","zh":"香港珠海學院","domains":["chuhai.edu.hk"]},
+{"en":"Hong Kong Chu Hai College","zh":"香港珠海學院","domains":["chuhai.edu.hk","student.chuhai.edu.hk"]},
 {"en":"Hong Kong College of Technology","zh":"港專","domains":["student.hkct.edu.hk"]},
 {"en":"Hong Kong Institute of Technology","zh":"香港科技專上書院","domains":["hkit.edu.hk"]},
 {"en":"Hong Kong International School (Repulse Bay Campus)","zh":"香港國際學校 (淺水灣校舍)","domains":["hkis.edu.hk"]},
