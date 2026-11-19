@@ -124,6 +124,7 @@ window.SCHOOLS = [{"en":"Aberdeen Baptist Lui Ming Choi College","zh":"香港仔
 {"en":"FDBWA Szeto Ho Secondary School","zh":"五邑司徒浩中學","domains":["szetoho.edu.hk"]},
 {"en":"Fortress Hill Methodist Secondary School","zh":"炮台山循道衛理中學","domains":["fhms.edu.hk"]},
 {"en":"French International School (French Section) (Blue Pool Road Campus)","zh":"法國國際學校 (法文部) (藍塘道校舍)","domains":["lfis.edu.hk"]},
+{"en":"French International School of Hong Kong","zh":"香港法國國際學校","domains":["g.lfis.edu.hk"]},
 {"en":"Fukien Secondary School","zh":"福建中學","domains":["fms.edu.hk","fms2.edu.hk"]},
 {"en":"Fukien Secondary School (Siu Sai Wan)","zh":"福建中學（小西灣）","domains":["fss.edu.hk"]},
 {"en":"Fung Kai Liu Man Shek Tong Secondary School","zh":"鳳溪廖萬石堂中學","domains":["fklmstss.edu.hk"]},
